@@ -40,11 +40,5 @@ There are currently no upgrade notices for this project.
 
 == Changelog ==
 
-= 1.2.0 =
-* Add ability to use short codes on ACF and YoastSEO
-
-= 1.1.0 =
-* Use the correct WordPress escaping and sanitisation functions.
-
 = 1.0.0 =
 * Initial release.
