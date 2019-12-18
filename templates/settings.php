@@ -1,7 +1,7 @@
-<?php $pluginName = 'shablr' ?>
+<?php $pluginName = 'shortcode-enablr' ?>
 
 <div class="wrap">
-    <h2>Shablr Settings</h2>
+    <h2>Shortcode Enablr Settings</h2>
 
     <?php if (isset($message)): ?>
         <p><?= $message; ?></p>

@@ -1,4 +1,4 @@
-=== Shablr ===
+=== Shortcode Enablr ===
 Contributors: b3none
 Donate link: https://herdl.com/
 Tags: shortcode, acf, advanced custome fields short code, acf shortcode, herdl
@@ -7,13 +7,13 @@ Tested up to: 5.2
 Stable tag: 5.2
 Requires PHP: 7.0.0
 License: MIT
-License URI: https://github.com/herdl/shablr/blob/master/LICENSE.md
+License URI: https://github.com/herdl/shortcode-enablr/blob/master/LICENSE.md
 
 Wordpress 3rd party shortcode enabler.
 
 == Description ==
 
-The Herdl 3rd party shortcode enabler plugin, shablr, allows for shortcode to be used in third party add-ons such as ACF and Yoast SEO.
+The Herdl 3rd party shortcode enabler plugin, shortcode-enablr, allows for shortcode to be used in third party add-ons such as ACF and Yoast SEO.
 
 == Installation ==
 
@@ -23,7 +23,7 @@ Once this plugin has been approved on the WordPress marketplace we will update t
 
 == Usage ==
 
-To add shortcode to the desired add-on, navigate the shablr settings and select the service you want to enable shortcode for. Hit save and all is done! 
+To add shortcode to the desired add-on, navigate the shortcode-enablr settings and select the service you want to enable shortcode for. Hit save and all is done!
 
 == Frequently Asked Questions ==
 
