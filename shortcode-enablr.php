@@ -14,7 +14,7 @@ if (!defined('WPINC')) {
 }
 
 function shortcode_enablr_register_settings() {
-    add_submenu_page('options-general.php', 'Shortcode Enablr', 'Shortcode Enablr', 'manage_options', 'shortcode-enablr', 'shortcode_enablr_settings');
+    add_submenu_page('options-general.php', 'Shortcode Enablr', 'Shortcode Enablr', 'manage_options', 'shortcode_enablr', 'shortcode_enablr_settings');
 }
 
 function shortcode_enablr_settings() {
@@ -26,7 +26,7 @@ function shortcode_enablr_settings() {
     if (isset($_REQUEST['submit'])) {
         if (!isset($_REQUEST['shortcode_enablr_nonce'])) {
             $errorMessage = 'nonce field is missing. Settings NOT saved.';
-        } elseif (!wp_verify_nonce($_REQUEST['shortcode_enablr_nonce'], 'shortcode-enablr')) {
+        } elseif (!wp_verify_nonce($_REQUEST['shortcode_enablr_nonce'], 'shortcode_enablr')) {
             $errorMessage = 'Invalid nonce specified. Settings NOT saved.';
         } else {
             update_option('shortcode_enablr_acf_enable', isset($_REQUEST['shortcode_enablr_acf_enable']) ? 'yes' : 'no');
