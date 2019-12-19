@@ -5,7 +5,7 @@
  * Plugin URI: https://github.com/herdl/shortcode-enablr
  * Description: Shortcode enabler.
  * Author: Herdl
- * Version: 1.1.0
+ * Version: 1.1.1
  * Author URI: https://herdl.com
  */
 
@@ -40,22 +40,27 @@ function shortcode_enablr_settings() {
 }
 
 if (get_option('shortcode_enablr_acf_enable') === 'yes') {
-    add_filter('acf/format_value', 'shortcode_enablr_acf_format_value');
+    if (!class_exists('ACF')) {
+        add_filter('acf/format_value', 'shortcode_enablr_acf_format_value');
 
-    function shortcode_enablr_acf_format_value($value, $post_id, $field) {
-        if (!is_array($value)) {
-            $value = do_shortcode($value);
+        function shortcode_enablr_acf_format_value($value, $post_id, $field) {
+            if (!is_array($value)) {
+                $value = do_shortcode($value);
+            }
+
+            return $value;
         }
-
-        return $value;
     }
 }
 
 if (get_option('shortcode_enablr_yoast_title_enable') === 'yes') {
-    add_filter('wpseo_title', 'shortcode_enablr_wpseo_title');
+    if (is_plugin_active('wordpress-seo/wp-seo.php') || is_plugin_active('wordpress-seo-premium/wp-seo-premium.php')) {
+        add_filter('wpseo_title', 'shortcode_enablr_wpseo_title');
 
-    function shortcode_enablr_wpseo_title($title) {
-        return do_shortcode($title);
+        function shortcode_enablr_wpseo_title($title)
+        {
+            return do_shortcode($title);
+        }
     }
 }
 
