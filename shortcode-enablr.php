@@ -5,7 +5,7 @@
  * Plugin URI: https://github.com/herdl/shortcode-enablr
  * Description: Shortcode enabler.
  * Author: Herdl
- * Version: 1.1.1
+ * Version: 1.1.2
  * Author URI: https://herdl.com
  */
 
