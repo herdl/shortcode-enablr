@@ -1,4 +1,4 @@
-<?php $pluginName = 'shortcode-enablr' ?>
+<?php $pluginName = 'shortcode_enablr' ?>
 
 <div class="wrap">
     <h2>Shortcode Enablr Settings</h2>
