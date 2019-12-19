@@ -1,4 +1,4 @@
-![The Insertr](.github/README/logo.png)
+![Shortcode Enablr](.github/README/logo.png)
 
 [![Contributors](https://img.shields.io/github/contributors/herdl/shortcode-enablr)](https://github.com/herdl/shortcode-enablr)
 [![HitCount](http://hits.dwyl.io/herdl/shortcode-enablr.svg)](https://github.com/herdl/shortcode-enablr)
@@ -7,11 +7,11 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![We Love Open Source!](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/herdl)
 
-# The Insertr
+# Shortcode Enablr
 Wordpress dynamic keyword insertion plugin.
 
 ## Prerequisites
-The following is a list of prerequisites for The Insertr.
+The following is a list of prerequisites for Shortcode Enablr.
 ```
 PHP Version >= 7.0.0
 ```
@@ -24,7 +24,7 @@ Alternatively you can install it via the [Wordpress marketplace](https://wordpre
 
 ## Description
 
-The Herdl dynamic keyword insertion plugin, The Insertr, dynamically inserts a keyword onto your page using a simple URL query string to determine the keyword and a shortcode for placement.
+The Herdl dynamic keyword insertion plugin, Shortcode Enablr, dynamically inserts a keyword onto your page using a simple URL query string to determine the keyword and a shortcode for placement.
 
 The placement of the word or phrase is determined by the location of the short code. In the case where a word is not specified a fallback Keyword or phrase is placed instead.
 
