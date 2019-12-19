@@ -54,13 +54,11 @@ if (get_option('shortcode_enablr_acf_enable') === 'yes') {
 }
 
 if (get_option('shortcode_enablr_yoast_title_enable') === 'yes') {
-    if (is_plugin_active('wordpress-seo/wp-seo.php') || is_plugin_active('wordpress-seo-premium/wp-seo-premium.php')) {
-        add_filter('wpseo_title', 'shortcode_enablr_wpseo_title');
+    add_filter('wpseo_title', 'shortcode_enablr_wpseo_title');
 
-        function shortcode_enablr_wpseo_title($title)
-        {
-            return do_shortcode($title);
-        }
+    function shortcode_enablr_wpseo_title($title)
+    {
+        return do_shortcode($title);
     }
 }
 
