@@ -8,7 +8,7 @@
 [![We Love Open Source!](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/herdl)
 
 # Shortcode Enablr
-Wordpress dynamic keyword insertion plugin.
+Wordpress 3rd party shortcode enabler.
 
 ## Prerequisites
 The following is a list of prerequisites for Shortcode Enablr.
@@ -24,22 +24,16 @@ Alternatively you can install it via the [Wordpress marketplace](https://wordpre
 
 ## Description
 
-The Herdl dynamic keyword insertion plugin, Shortcode Enablr, dynamically inserts a keyword onto your page using a simple URL query string to determine the keyword and a shortcode for placement.
-
-The placement of the word or phrase is determined by the location of the short code. In the case where a word is not specified a fallback Keyword or phrase is placed instead.
+The Herdl 3rd party shortcode enabler plugin, shortcode-enablr, allows for shortcode to be used in third party add-ons such as ACF and Yoast SEO.
 
 ## Usage
 
-Short code to be used: [insertr key=”{desiredword}” fallback=”{fallback}”] where ‘desiredword’ is the word to be placed, and ‘fallback’ is the word to appear if no keyword is specified.
+To add shortcode to the desired add-on, navigate the shortcode-enablr settings and select the service you want to enable shortcode for. Hit save and all is done!
 
-For the Keyword to be placed on your page, you must also add the following parameter to your URL: ?keyword={example} Where ‘example’ is the word you want to placed.
+## FAQ
 
-If your URL already has parameters (E.g – there is already a ? in the URL) add &keyword={keyword} to the end of the string.
-
-## Use Cases
-– Improving the landing page experience for Google Ads performance by improving keyword relevancy
-– Personalisation of pages
-– Marketing automation
+Q - I want to use shortcode in an add-on that isn't currently listed, can I request it?
+A - Sure! 
 
 ## We're Using
 * [PHP](https://www.php.net/) - The primary programming language
