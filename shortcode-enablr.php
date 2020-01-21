@@ -63,4 +63,3 @@ if (get_option('shortcode_enablr_yoast_title_enable') === 'yes') {
 }
 
 add_action('admin_menu', 'shortcode_enablr_register_settings');
-add_action('wp_footer', 'shortcode_enablr_render_script');
