@@ -1,7 +1,6 @@
 ![Shortcode Enablr](.github/README/logo.png)
 
 [![Contributors](https://img.shields.io/github/contributors/herdl/shortcode-enablr)](https://github.com/herdl/shortcode-enablr)
-[![HitCount](http://hits.dwyl.io/herdl/shortcode-enablr.svg)](https://github.com/herdl/shortcode-enablr)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/herdl/shortcode-enablr/graphs/commit-activity)
 [![GitHub releases](https://img.shields.io/github/release/herdl/shortcode-enablr.svg)](https://github.com/herdl/shortcode-enablr/releases/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
