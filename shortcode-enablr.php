@@ -5,7 +5,7 @@
  * Plugin URI: https://github.com/herdl/shortcode-enablr
  * Description: Shortcode enabler.
  * Author: Herdl
- * Version: 1.1.3
+ * Version: 1.1.4
  * Author URI: https://herdl.com
  */
 
@@ -40,17 +40,13 @@ function shortcode_enablr_settings() {
 }
 
 if (get_option('shortcode_enablr_acf_enable') === 'yes') {
-    if (!class_exists('ACF')) {
-        add_filter('acf/format_value', 'shortcode_enablr_acf_format_value');
 
-        function shortcode_enablr_acf_format_value($value, $post_id, $field) {
-            if (!is_array($value)) {
-                $value = do_shortcode($value);
-            }
+    function shortcode_enablr_acf_format_value($value, $post_id, $field) {
 
-            return $value;
-        }
+        return do_shortcode($value);
     }
+    
+    add_filter('acf/format_value', 'shortcode_enablr_acf_format_value');
 }
 
 if (get_option('shortcode_enablr_yoast_title_enable') === 'yes') {
