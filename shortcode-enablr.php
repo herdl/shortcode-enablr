@@ -40,13 +40,13 @@ function shortcode_enablr_settings() {
 }
 
 if (get_option('shortcode_enablr_acf_enable') === 'yes') {
+    add_filter('acf/format_value', 'shortcode_enablr_acf_format_value', 10, 3);
 
     function shortcode_enablr_acf_format_value($value, $post_id, $field) {
-
-        return do_shortcode($value);
+        if (!is_array($value)) {
+            return do_shortcode($value);
+        }
     }
-    
-    add_filter('acf/format_value', 'shortcode_enablr_acf_format_value');
 }
 
 if (get_option('shortcode_enablr_yoast_title_enable') === 'yes') {
