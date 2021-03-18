@@ -1,7 +1,7 @@
 === Shortcode Enablr ===
 Contributors: b3none, garethmorgans
 Donate link: https://herdl.com/
-Tags: shortcode, acf, advanced custom fields shortcode, acf shortcode, yoast shortcode, herdl
+Tags: shortcode, acf, advanced custom fields, advanced custom fields shortcode, acf shortcode, yoast shortcode, herdl
 Requires at least: 2.9
 Tested up to: 5.7
 Stable tag: 5.7
@@ -9,11 +9,15 @@ Requires PHP: 7.0.0
 License: MIT
 License URI: https://github.com/herdl/shortcode-enablr/blob/master/LICENSE.md
 
-Wordpress 3rd party shortcode enabler.
+Enable shortcodes in ACF field and Yoast SEO titles.
 
 == Description ==
 
-The Herdl 3rd party shortcode enabler plugin, shortcode-enablr, allows for shortcodes to be used in third party plugins such as ACF and Yoast SEO.
+Shortcode Enablr will allow shortcodes to display in ACF fields and Yoast SEO title fields. By default, shortcodes will not work properly in many 3rd party plugins that create non-standard fields.
+
+If you’re looking for a quick and easy way to use shortcodes in these text fields, then our plugin is for you!
+
+We’ve made this plugin to work alongside The Insertr, our free Dynamic Keyword Insertion tool for WordPress.
 
 == Installation ==
 
@@ -23,11 +27,11 @@ Once this plugin has been approved on the WordPress marketplace we will update t
 
 == Usage ==
 
-To add shortcode to the desired add-on, navigate the shortcode-enablr settings and select the service you want to enable shortcodes for. Hit save and all is done!
+To add shortcodes to ACF fields or Yoast SEO title fields, navigate to the Shortcode Enablr settings and select the service where you want to enable shortcodes. Hit save and you're ready to go!
 
 == Frequently Asked Questions ==
 
-Q - I want to use shortcode in a plugin that isn't currently listed, can I request it?
+Q - I want to use shortcode in a plugin field that isn't currently listed, can I request it?
 A - Sure!
 
 == Upgrade Notice ==
