@@ -2,7 +2,7 @@
 
 <div class="wrap">
     <h2>Shortcode Enablr Settings</h2>
-
+    <img src="https://ps.w.org/shortcode-enablr/assets/banner-772x250.png"/>
     <?php if (isset($message)): ?>
         <p><?= $message; ?></p>
     <?php endif ?>
