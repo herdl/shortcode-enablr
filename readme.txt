@@ -9,7 +9,7 @@ Requires PHP: 7.0.0
 License: MIT
 License URI: https://github.com/herdl/shortcode-enablr/blob/master/LICENSE.md
 
-Enable shortcodes in ACF field and Yoast SEO titles.
+Enable shortcodes in ACF fields and Yoast SEO titles.
 
 == Description ==
 
