@@ -25,4 +25,5 @@
             <input name="submit" type="submit" name="Submit" class="button button-primary" value="Save" />
         </p>
     </form>
+    <p>This plugin was built to work with our Dynamic Keyword Insertion tool - <a href="https://wordpress.org/plugins/the-insertr/" target="_blank">The Insertr</a>!</p>
 </div>
