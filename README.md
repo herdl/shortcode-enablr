@@ -7,7 +7,7 @@
 [![We Love Open Source!](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/herdl)
 
 # Shortcode Enablr
-Wordpress 3rd party shortcode enabler.
+WordPress third-party shortcode enabler.
 
 ## Prerequisites
 The following is a list of prerequisites for Shortcode Enablr.
@@ -19,11 +19,11 @@ PHP Version >= 7.0.0
 
 You can download the latest release as a `.zip` then head over to your site to install this manually.
 
-Alternatively you can install it via the [Wordpress marketplace](https://wordpress.org/plugins/shortcode-enablr/).
+Alternatively, you can install it via the [WordPress marketplace](https://wordpress.org/plugins/shortcode-enablr/).
 
 ## Description
 
-The Herdl 3rd party shortcode enabler plugin, shortcode-enablr, allows for shortcode to be used in third party add-ons such as ACF and Yoast SEO.
+The Herdl third-party shortcode enabler plugin, shortcode-enablr, allows for shortcode to be used in third-party add-ons such as ACF and Yoast SEO.
 
 ## Usage
 
